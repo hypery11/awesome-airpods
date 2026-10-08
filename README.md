@@ -17,6 +17,7 @@ The projects people actually share. Everything below is the map around them, not
 別人會轉發的是這幾個。下面是圍繞它們的地圖，不是產品目錄。
 
 - **[LibrePods](https://github.com/librepods-org/librepods)** — The AAP implementation. ANC, in-ear detection, battery, gestures on Android / Linux. / AAP 實作。Android／Linux 上的降噪、入耳偵測、電量、手勢。
+- **[linux-client-for-airpods-pro](https://github.com/ozankenangungor/linux-client-for-airpods-pro)** — Read the AirPods Pro 3 heart-rate stream on Linux. / 在 Linux 讀 AirPods Pro 3 心率。
 - **[whoisbadai](https://github.com/pavloshargan/whoisbadai)** — AirPod as a handheld IMU controller. / 把 AirPod 當手持 IMU 控制器。
 - **[HeadphoneMotion](https://github.com/kulich-ua/HeadphoneMotion)** — `CMHeadphoneMotionManager` demo. / Apple 耳機運動 API 示範。
 - **[airtracker](https://github.com/crippler95/airtracker)** — AirPods as a low-latency head tracker (OpenTrack UDP). / 低延遲頭追，輸出 OpenTrack UDP。
