@@ -53,6 +53,7 @@ Projects that document or implement Apple Accessory Protocol (AAP), Magic Pairin
 - **[apple-wireshark](https://github.com/pabloaul/apple-wireshark)** — Wireshark dissectors for various proprietary Apple Bluetooth protocols. / 多種 Apple 專有藍牙協定的 Wireshark dissector。
 - **[librepods-rs](https://github.com/brianpht/librepods-rs)** — Minimal pure-Rust AAP implementation for Linux. / 精簡的 Pure Rust AAP 實作（Linux）。
 - **[airpods-helper](https://github.com/superninjv/airpods-helper)** — Linux Rust daemon: AAP over L2CAP, D-Bus, CLI, GTK4 widget. / Linux Rust daemon：AAP over L2CAP、D-Bus、CLI、GTK4 widget。
+- **[linux-client-for-airpods-pro](https://github.com/ozankenangungor/linux-client-for-airpods-pro)** — Reverse-engineered AirPods Pro 3 heart-rate stream on Linux: BlueZ daemon plus Rust / Python / C APIs and a desktop app. / 逆向 AirPods Pro 3 心率資料流（Linux）：BlueZ daemon，附 Rust／Python／C API 與桌面 App。
 
 ---
 
@@ -72,6 +73,7 @@ Battery status, ANC controls, in-ear detection, and “pop-up” style UX outsid
 
 - **[AirPodsDesktop](https://github.com/SpriteOvO/AirPodsDesktop)** — Enhanced desktop experience on Windows / Linux (WIP): battery, media, etc. / Windows／Linux（WIP）桌面體驗增強：電量、媒體等。
 - **[PodBridge](https://github.com/bhemsen/PodBridge)** — Open Windows companion without drivers: battery, auto play/pause, optional ANC. / Windows 免驅動開源 Companion：電量、自動播放暫停、可選 ANC。
+- **[NTPods](https://github.com/arctumn/ntpods)** — Windows port that grew out of LibrePods: battery, noise control, ear detection, Conversation Awareness, hi-res mic, Pro 3 heart rate; drivers open too (GPL-3.0). / 由 LibrePods Windows 移植獨立出來：電量、降噪、入耳偵測、對話感知、高音質麥克風、Pro 3 心率；驅動也開源（GPL-3.0）。
 - **[AirpodsBattery-Monitor-For-Mac](https://github.com/mohamed-arradi/AirpodsBattery-Monitor-For-Mac)** — macOS menu-bar battery / widget. / macOS 選單列電量／Widget。
 - **[LinuxPods](https://github.com/Explor3Universe/LinuxPods)** — KDE Plasma 6 plasmoid + C++ daemon. / KDE Plasma 6 plasmoid + C++ daemon。
 - **[airpods-helper](https://github.com/superninjv/airpods-helper)** — Also listed under protocol; includes GTK4 UI. / 亦列於協定章節；含 GTK4 UI。
@@ -88,6 +90,9 @@ Using AirPods IMU / head-tracking data for sports, VR, and controllers — the K
 - **[HeadphoneMotion](https://github.com/kulich-ua/HeadphoneMotion)** — Demo of Apple’s `CMHeadphoneMotionManager` headphone motion data. / 示範 Apple `CMHeadphoneMotionManager` 耳機運動資料。
 - **[airtracker](https://github.com/crippler95/airtracker)** — macOS: AirPods as low-latency head tracker, OpenTrack UDP out. / macOS：把 AirPods 當低延遲頭追，輸出 OpenTrack UDP。
 - **[aap-head-tracker](https://github.com/FIocker/aap-head-tracker)** — Windows: decode AAP motion (via MagicAAP) for head tracking. / Windows：經 MagicAAP 解碼 AAP 運動資料做頭追。
+- **[Nod](https://github.com/ydisli/nod)** — macOS: hands-free pointer control with AirPods head tracking, aimed at accessibility / RSI. / macOS：用 AirPods 頭追免手控制滑鼠游標，主打無障礙／RSI 使用者。
+- **[QuietGlass](https://github.com/clintonimaroo/quietglass)** — macOS: blur your screens when you look away, using AirPods head motion (or the camera). / macOS：轉頭不看螢幕時自動模糊，使用 AirPods 頭部運動（或鏡頭）。
+- **[O-Pose](https://github.com/fengkaobanli/O-Pose)** — Android (OPPO ColorOS 16, root): read AirPods Pro 2 head tracking over AACP and drive system spatial audio. / Android（OPPO ColorOS 16，需 root）：經 AACP 讀 AirPods Pro 2 頭追，驅動系統空間音訊。
 
 ---
 
