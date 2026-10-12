@@ -94,6 +94,7 @@ Using AirPods IMU / head-tracking data for sports, VR, and controllers — the K
 - **[Nod](https://github.com/ydisli/nod)** — macOS: hands-free pointer control with AirPods head tracking, aimed at accessibility / RSI. / macOS：用 AirPods 頭追免手控制滑鼠游標，主打無障礙／RSI 使用者。
 - **[QuietGlass](https://github.com/clintonimaroo/quietglass)** — macOS: blur your screens when you look away, using AirPods head motion (or the camera). / macOS：轉頭不看螢幕時自動模糊，使用 AirPods 頭部運動（或鏡頭）。
 - **[O-Pose](https://github.com/fengkaobanli/O-Pose)** — Android (OPPO ColorOS 16, root): read AirPods Pro 2 head tracking over AACP and drive system spatial audio. / Android（OPPO ColorOS 16，需 root）：經 AACP 讀 AirPods Pro 2 頭追，驅動系統空間音訊。
+- **[ZANKYO](https://github.com/shilokuma-inc/zankyo-apple)** — iOS / iPadOS / macOS / visionOS: one-handed BeatSaver rhythm game played with AirPods head motion. / iOS／iPadOS／macOS／visionOS：用 AirPods 頭部動作單手遊玩 BeatSaver 譜面的節奏遊戲。
 
 ---
 
