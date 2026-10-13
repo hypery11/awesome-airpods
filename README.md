@@ -76,6 +76,7 @@ Battery status, ANC controls, in-ear detection, and “pop-up” style UX outsid
 - **[PodBridge](https://github.com/bhemsen/PodBridge)** — Open Windows companion without drivers: battery, auto play/pause, optional ANC. / Windows 免驅動開源 Companion：電量、自動播放暫停、可選 ANC。
 - **[NTPods](https://github.com/arctumn/ntpods)** — Windows port that grew out of LibrePods: battery, noise control, ear detection, Conversation Awareness, hi-res mic, Pro 3 heart rate; drivers open too (GPL-3.0). / 由 LibrePods Windows 移植獨立出來：電量、降噪、入耳偵測、對話感知、高音質麥克風、Pro 3 心率；驅動也開源（GPL-3.0）。
 - **[AirpodsBattery-Monitor-For-Mac](https://github.com/mohamed-arradi/AirpodsBattery-Monitor-For-Mac)** — macOS menu-bar battery / widget. / macOS 選單列電量／Widget。
+- **[pods-control](https://github.com/raulgg/pods-control)** — macOS CLI (Homebrew) to read / set AirPods and Beats listening mode (off, transparency, adaptive, ANC) and Conversation Awareness via undocumented CoreAudio properties (MIT). / macOS 命令列工具（Homebrew），透過未公開的 CoreAudio 屬性讀取／切換 AirPods 與 Beats 聆聽模式（關閉、通透、自適應、降噪）及對話感知（MIT）。 ([Alfred workflow](https://github.com/laipz8200/alfred-airpods) built on it / 以此為基礎的 Alfred workflow)
 - **[LinuxPods](https://github.com/Explor3Universe/LinuxPods)** — KDE Plasma 6 plasmoid + C++ daemon. / KDE Plasma 6 plasmoid + C++ daemon。
 - **[airpods-helper](https://github.com/superninjv/airpods-helper)** — Also listed under protocol; includes GTK4 UI. / 亦列於協定章節；含 GTK4 UI。
 
