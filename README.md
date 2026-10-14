@@ -78,6 +78,8 @@ Battery status, ANC controls, in-ear detection, and “pop-up” style UX outsid
 - **[AirpodsBattery-Monitor-For-Mac](https://github.com/mohamed-arradi/AirpodsBattery-Monitor-For-Mac)** — macOS menu-bar battery / widget. / macOS 選單列電量／Widget。
 - **[pods-control](https://github.com/raulgg/pods-control)** — macOS CLI (Homebrew) to read / set AirPods and Beats listening mode (off, transparency, adaptive, ANC) and Conversation Awareness via undocumented CoreAudio properties (MIT). / macOS 命令列工具（Homebrew），透過未公開的 CoreAudio 屬性讀取／切換 AirPods 與 Beats 聆聽模式（關閉、通透、自適應、降噪）及對話感知（MIT）。 ([Alfred workflow](https://github.com/laipz8200/alfred-airpods) built on it / 以此為基礎的 Alfred workflow)
 - **[LinuxPods](https://github.com/Explor3Universe/LinuxPods)** — KDE Plasma 6 plasmoid + C++ daemon. / KDE Plasma 6 plasmoid + C++ daemon。
+- **[LinuxPods (GNOME)](https://github.com/mstroecker/LinuxPods)** — Separate native libadwaita app: BLE battery (exact 1% once it pulls the advertisement key over AAP), noise control, multi-pair switcher, battery in GNOME Settings; early stage (GPL-3.0). / 另一個同名專案，原生 libadwaita App：經 BLE 讀電量（透過 AAP 取得廣播金鑰後可精確到 1%）、降噪模式、多組耳機切換、電量顯示於 GNOME 設定；仍在早期（GPL-3.0）。
+- **[podctl](https://github.com/Rockykln/podctl)** — Linux CLI + daemon with a from-scratch AAP (L2CAP PSM `0x1001`) client: battery, listening modes, Conversation Awareness, ear-detection pause / resume, plus optional tray and case-open popup (Apache-2.0). / Linux 命令列工具＋daemon，從零實作 AAP（L2CAP PSM `0x1001`）：電量、聆聽模式、對話感知、入耳偵測自動暫停／續播，另附可選系統匣與開蓋彈窗（Apache-2.0）。
 - **[airpods-helper](https://github.com/superninjv/airpods-helper)** — Also listed under protocol; includes GTK4 UI. / 亦列於協定章節；含 GTK4 UI。
 
 ---
@@ -96,6 +98,7 @@ Using AirPods IMU / head-tracking data for sports, VR, and controllers — the K
 - **[QuietGlass](https://github.com/clintonimaroo/quietglass)** — macOS: blur your screens when you look away, using AirPods head motion (or the camera). / macOS：轉頭不看螢幕時自動模糊，使用 AirPods 頭部運動（或鏡頭）。
 - **[O-Pose](https://github.com/fengkaobanli/O-Pose)** — Android (OPPO ColorOS 16, root): read AirPods Pro 2 head tracking over AACP and drive system spatial audio. / Android（OPPO ColorOS 16，需 root）：經 AACP 讀 AirPods Pro 2 頭追，驅動系統空間音訊。
 - **[ZANKYO](https://github.com/shilokuma-inc/zankyo-apple)** — iOS / iPadOS / macOS / visionOS: one-handed BeatSaver rhythm game played with AirPods head motion. / iOS／iPadOS／macOS／visionOS：用 AirPods 頭部動作單手遊玩 BeatSaver 譜面的節奏遊戲。
+- **[SkateFit Motion Lab](https://github.com/banddude/skatefit-airpods-motion)** — iOS experiment: records motion from a board-mounted AirPod plus the iPhone for skateboard trick / manual / landing detection, with a web tuning console (MIT). / iOS 實驗：把 AirPod 固定在滑板上、與 iPhone 一起記錄運動資料，用來偵測滑板招式／manual／落地，附網頁調參主控台（MIT）。
 
 ---
 
