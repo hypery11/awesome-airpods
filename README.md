@@ -54,6 +54,8 @@ Projects that document or implement Apple Accessory Protocol (AAP), Magic Pairin
 - **[apple-wireshark](https://github.com/pabloaul/apple-wireshark)** — Wireshark dissectors for various proprietary Apple Bluetooth protocols. / 多種 Apple 專有藍牙協定的 Wireshark dissector。
 - **[librepods-rs](https://github.com/brianpht/librepods-rs)** — Minimal pure-Rust AAP implementation for Linux. / 精簡的 Pure Rust AAP 實作（Linux）。
 - **[airpods-helper](https://github.com/superninjv/airpods-helper)** — Linux Rust daemon: AAP over L2CAP, D-Bus, CLI, GTK4 widget. / Linux Rust daemon：AAP over L2CAP、D-Bus、CLI、GTK4 widget。
+- **[airpods-tui](https://github.com/annoyedmilk/airpods-tui)** — Linux Rust TUI + daemon over AACP: battery, noise modes, Conversation Awareness, stem settings, ear detection, Waybar JSON (GPL-3.0). / Linux Rust TUI＋daemon（AACP）：電量、降噪模式、對話感知、柄控設定、入耳偵測、Waybar JSON（GPL-3.0）。
+- **[MagicPodsCore](https://github.com/steam3d/MagicPodsCore)** — Open Linux backend (WebSocket API) for AirPods / Beats / Galaxy Buds / Pixel Buds: battery, noise control, and AirPods-exclusive settings (GPL-3.0). / 開源 Linux 後端（WebSocket API），支援 AirPods／Beats／Galaxy Buds／Pixel Buds：電量、降噪，以及 AirPods 專屬設定（GPL-3.0）。
 - **[linux-client-for-airpods-pro](https://github.com/ozankenangungor/linux-client-for-airpods-pro)** — Reverse-engineered AirPods Pro 3 heart-rate stream on Linux: BlueZ daemon plus Rust / Python / C APIs and a desktop app. / 逆向 AirPods Pro 3 心率資料流（Linux）：BlueZ daemon，附 Rust／Python／C API 與桌面 App。
 
 ---
@@ -75,12 +77,18 @@ Battery status, ANC controls, in-ear detection, and “pop-up” style UX outsid
 - **[AirPodsDesktop](https://github.com/SpriteOvO/AirPodsDesktop)** — Enhanced desktop experience on Windows / Linux (WIP): battery, media, etc. / Windows／Linux（WIP）桌面體驗增強：電量、媒體等。
 - **[PodBridge](https://github.com/bhemsen/PodBridge)** — Open Windows companion without drivers: battery, auto play/pause, optional ANC. / Windows 免驅動開源 Companion：電量、自動播放暫停、可選 ANC。
 - **[NTPods](https://github.com/arctumn/ntpods)** — Windows port that grew out of LibrePods: battery, noise control, ear detection, Conversation Awareness, hi-res mic, Pro 3 heart rate; drivers open too (GPL-3.0). / 由 LibrePods Windows 移植獨立出來：電量、降噪、入耳偵測、對話感知、高音質麥克風、Pro 3 心率；驅動也開源（GPL-3.0）。
+- **[winpods](https://github.com/sinanovicanes/winpods)** — Lightweight Windows companion (Rust): battery, connection status, tray, low-battery alerts, movable widget (MIT). / 輕量 Windows Companion（Rust）：電量、連線狀態、系統匣、低電量提醒、可移動 Widget（MIT）。
 - **[AirpodsBattery-Monitor-For-Mac](https://github.com/mohamed-arradi/AirpodsBattery-Monitor-For-Mac)** — macOS menu-bar battery / widget. / macOS 選單列電量／Widget。
 - **[pods-control](https://github.com/raulgg/pods-control)** — macOS CLI (Homebrew) to read / set AirPods and Beats listening mode (off, transparency, adaptive, ANC) and Conversation Awareness via undocumented CoreAudio properties (MIT). / macOS 命令列工具（Homebrew），透過未公開的 CoreAudio 屬性讀取／切換 AirPods 與 Beats 聆聽模式（關閉、通透、自適應、降噪）及對話感知（MIT）。 ([Alfred workflow](https://github.com/laipz8200/alfred-airpods) built on it / 以此為基礎的 Alfred workflow)
+- **[kAirPods](https://github.com/can1357/kAirPods)** — Native KDE Plasma 6 integration (Rust L2CAP backend + panel widget): battery, noise control, ear detection, auto play/pause (GPL-3.0). / 原生 KDE Plasma 6 整合（Rust L2CAP 後端＋面板小工具）：電量、降噪、入耳偵測、自動播放／暫停（GPL-3.0）。
 - **[LinuxPods](https://github.com/Explor3Universe/LinuxPods)** — KDE Plasma 6 plasmoid + C++ daemon. / KDE Plasma 6 plasmoid + C++ daemon。
+- **[EarPort](https://github.com/Anoryth/earport)** — GNOME Shell Quick Settings + C daemon over L2CAP: battery (incl. while on another device), noise modes, Conversation Awareness, ear detection, experimental Apple-device handoff (GPL-3.0). / GNOME Shell Quick Settings＋C daemon（L2CAP）：電量（含在其他裝置使用時）、降噪模式、對話感知、入耳偵測、實驗性與 Apple 裝置交接（GPL-3.0）。
 - **[LinuxPods (GNOME)](https://github.com/mstroecker/LinuxPods)** — Separate native libadwaita app: BLE battery (exact 1% once it pulls the advertisement key over AAP), noise control, multi-pair switcher, battery in GNOME Settings; early stage (GPL-3.0). / 另一個同名專案，原生 libadwaita App：經 BLE 讀電量（透過 AAP 取得廣播金鑰後可精確到 1%）、降噪模式、多組耳機切換、電量顯示於 GNOME 設定；仍在早期（GPL-3.0）。
+- **[omarchy-pods](https://github.com/thisisgm/omarchy-pods)** — AirPods panel for Omarchy: per-pod / case battery, listening modes, adaptive level, Conversation Awareness, One-Bud ANC, ear detection (MIT). / Omarchy 面板：左右耳機／充電盒電量、聆聽模式、自適應強度、對話感知、單耳降噪、入耳偵測（MIT）。
 - **[podctl](https://github.com/Rockykln/podctl)** — Linux CLI + daemon with a from-scratch AAP (L2CAP PSM `0x1001`) client: battery, listening modes, Conversation Awareness, ear-detection pause / resume, plus optional tray and case-open popup (Apache-2.0). / Linux 命令列工具＋daemon，從零實作 AAP（L2CAP PSM `0x1001`）：電量、聆聽模式、對話感知、入耳偵測自動暫停／續播，另附可選系統匣與開蓋彈窗（Apache-2.0）。
+- **[airpods-tui](https://github.com/annoyedmilk/airpods-tui)** — Also listed under protocol; TUI + Waybar for Linux. / 亦列於協定章節；Linux TUI＋Waybar。
 - **[airpods-helper](https://github.com/superninjv/airpods-helper)** — Also listed under protocol; includes GTK4 UI. / 亦列於協定章節；含 GTK4 UI。
+- **[MagicPodsCore](https://github.com/steam3d/MagicPodsCore)** — Also listed under protocol; Linux WebSocket backend. / 亦列於協定章節；Linux WebSocket 後端。
 
 ---
 
@@ -92,8 +100,11 @@ Using AirPods IMU / head-tracking data for sports, VR, and controllers — the K
 
 - **[whoisbadai](https://github.com/pavloshargan/whoisbadai)** — Open experiment by Kinapod’s author: use a left AirPod as a “digital whip” IMU controller. / Kinapod 作者開源實驗：用左手 AirPod 當「數位鞭」IMU 控制器。
 - **[HeadphoneMotion](https://github.com/kulich-ua/HeadphoneMotion)** — Demo of Apple’s `CMHeadphoneMotionManager` headphone motion data. / 示範 Apple `CMHeadphoneMotionManager` 耳機運動資料。
+- **[AirPodsPro-Motion-Sampler](https://github.com/tukuyo/AirPodsPro-Motion-Sampler)** — Classic iOS sample: live motion readout, head-driven cube / table scroll, CSV export via `CMHeadphoneMotionManager` (MIT). / 經典 iOS 範例：即時運動讀值、頭部驅動方塊／列表捲動、以 `CMHeadphoneMotionManager` 匯出 CSV（MIT）。
+- **[AirPosture](https://github.com/allenv0/AirPosture)** — iOS (open-sourced): turns AirPods head motion into a real-time posture coach (MIT). / iOS（已開源）：用 AirPods 頭部運動做即時姿勢教練（MIT）。
 - **[airtracker](https://github.com/crippler95/airtracker)** — macOS: AirPods as low-latency head tracker, OpenTrack UDP out. / macOS：把 AirPods 當低延遲頭追，輸出 OpenTrack UDP。
 - **[aap-head-tracker](https://github.com/FIocker/aap-head-tracker)** — Windows: decode AAP motion (via MagicAAP) for head tracking. / Windows：經 MagicAAP 解碼 AAP 運動資料做頭追。
+- **[Headitude](https://github.com/DanielRudrich/Headitude)** — macOS: forwards AirPods orientation over OSC (MIT). / macOS：把 AirPods 姿態以 OSC 轉發出去（MIT）。
 - **[Nod](https://github.com/ydisli/nod)** — macOS: hands-free pointer control with AirPods head tracking, aimed at accessibility / RSI. / macOS：用 AirPods 頭追免手控制滑鼠游標，主打無障礙／RSI 使用者。
 - **[QuietGlass](https://github.com/clintonimaroo/quietglass)** — macOS: blur your screens when you look away, using AirPods head motion (or the camera). / macOS：轉頭不看螢幕時自動模糊，使用 AirPods 頭部運動（或鏡頭）。
 - **[O-Pose](https://github.com/fengkaobanli/O-Pose)** — Android (OPPO ColorOS 16, root): read AirPods Pro 2 head tracking over AACP and drive system spatial audio. / Android（OPPO ColorOS 16，需 root）：經 AACP 讀 AirPods Pro 2 頭追，驅動系統空間音訊。
@@ -126,7 +137,7 @@ Not open source — listed so readers can compare feature sets and product direc
 非開源，列出方便對照功能與產品方向。
 
 - **[Kinapod](https://kinapod.com/)** — iOS app that turns AirPods IMU into a sports sensor (disc, run, bowling, cycling, golf, jianzi, …). Uses `CMHeadphoneMotionManager`; no public repo found. / 把 AirPods IMU 當運動感測器的 iOS App（飛盤、跑步、保齡球、騎車、高爾夫、毽子等）。走 `CMHeadphoneMotionManager`；目前找不到公開 repo。
-- **[MagicPods](https://magicpods.app/)** — Popular paid Windows companion (often compared in LibrePods / PodBridge READMEs). / 常見付費 Windows Companion（LibrePods／PodBridge README 常拿來對比）。
+- **[MagicPods](https://magicpods.app/)** — Popular paid Windows companion (often compared in LibrePods / PodBridge READMEs); open Linux backend is [MagicPodsCore](https://github.com/steam3d/MagicPodsCore). / 常見付費 Windows Companion（LibrePods／PodBridge README 常拿來對比）；開源 Linux 後端見 [MagicPodsCore](https://github.com/steam3d/MagicPodsCore)。
 
 ---
 
