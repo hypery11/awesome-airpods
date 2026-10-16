@@ -72,12 +72,15 @@
 - **[PodBridge](https://github.com/bhemsen/PodBridge)** — Windows 免驅動開源 Companion：電量、自動播放暫停、可選 ANC。
 - **[NTPods](https://github.com/arctumn/ntpods)** — 由 LibrePods Windows 移植獨立出來：電量、降噪、入耳偵測、對話感知、高音質麥克風、Pro 3 心率；驅動也開源（GPL-3.0）。
 - **[winpods](https://github.com/sinanovicanes/winpods)** — 輕量 Windows Companion（Rust）：電量、連線狀態、系統匣、低電量提醒、可移動 Widget（MIT）。
+- **[Near](https://github.com/jlbjulio/Near)** — 輕量 Windows Companion（Rust）：左右耳機／充電盒電量、開蓋彈窗、取出耳機時自動重連、入耳偵測暫停／續播、系統匣飛出面板（MIT）。
 - **[AirpodsBattery-Monitor-For-Mac](https://github.com/mohamed-arradi/AirpodsBattery-Monitor-For-Mac)** — macOS 選單列電量／Widget。
 - **[pods-control](https://github.com/raulgg/pods-control)** — macOS 命令列工具（Homebrew），透過未公開的 CoreAudio 屬性讀取／切換 AirPods 與 Beats 聆聽模式（關閉、通透、自適應、降噪）及對話感知（MIT）。 ([Alfred workflow](https://github.com/laipz8200/alfred-airpods)，以此為基礎的 Alfred workflow)
 - **[kAirPods](https://github.com/can1357/kAirPods)** — 原生 KDE Plasma 6 整合（Rust L2CAP 後端＋面板小工具）：電量、降噪、入耳偵測、自動播放／暫停（GPL-3.0）。
 - **[LinuxPods](https://github.com/Explor3Universe/LinuxPods)** — KDE Plasma 6 plasmoid + C++ daemon。
+- **[airpods-plasmoid](https://github.com/MintOcha/airpods-plasmoid)** — Plasma 6 plasmoid：精確電量（含開蓋附近 BLE）、聆聽模式（含自適應）、柄控／設定同步、入耳偵測、對話感知，以及經 `libmysofa` 的虛擬空間音訊（MIT）。
 - **[EarPort](https://github.com/Anoryth/earport)** — GNOME Shell Quick Settings＋C daemon（L2CAP）：電量（含在其他裝置使用時）、降噪模式、對話感知、入耳偵測、實驗性與 Apple 裝置交接（GPL-3.0）。
 - **[LinuxPods (GNOME)](https://github.com/mstroecker/LinuxPods)** — 另一個同名專案，原生 libadwaita App：經 BLE 讀電量（透過 AAP 取得廣播金鑰後可精確到 1%）、降噪模式、多組耳機切換、電量顯示於 GNOME 設定；仍在早期（GPL-3.0）。
+- **[GnomePods](https://github.com/michaelcaxias/gnomepods)** — GNOME Shell 頂列擴充，作為 [LinuxPods](https://github.com/Explor3Universe/LinuxPods) `linuxpods-daemon` 的前端：左右耳機／充電盒電量、降噪模式、對話感知、單耳降噪；daemon 的 D-Bus 或 AirPods 資料中斷時會自動重啟（GPL-3.0）。
 - **[omarchy-pods](https://github.com/thisisgm/omarchy-pods)** — Omarchy 面板：左右耳機／充電盒電量、聆聽模式、自適應強度、對話感知、單耳降噪、入耳偵測（MIT）。
 - **[podctl](https://github.com/Rockykln/podctl)** — Linux 命令列工具＋daemon，從零實作 AAP（L2CAP PSM `0x1001`）：電量、聆聽模式、對話感知、入耳偵測自動暫停／續播，另附可選系統匣與開蓋彈窗（Apache-2.0）。
 - **[airpods-tui](https://github.com/annoyedmilk/airpods-tui)** — 亦列於協定章節；Linux TUI＋Waybar。
