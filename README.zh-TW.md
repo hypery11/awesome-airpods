@@ -53,6 +53,7 @@
 - **[airpods-tui](https://github.com/annoyedmilk/airpods-tui)** — Linux Rust TUI＋daemon（AACP）：電量、降噪模式、對話感知、柄控設定、入耳偵測、Waybar JSON（GPL-3.0）。
 - **[MagicPodsCore](https://github.com/steam3d/MagicPodsCore)** — 開源 Linux 後端（WebSocket API），支援 AirPods／Beats／Galaxy Buds／Pixel Buds：電量、降噪，以及 AirPods 專屬設定（GPL-3.0）。
 - **[linux-client-for-airpods-pro](https://github.com/ozankenangungor/linux-client-for-airpods-pro)** — 逆向 AirPods Pro 3 心率資料流（Linux）：BlueZ daemon，附 Rust／Python／C API 與桌面 App。
+- **[openulla](https://github.com/mstampfli/openulla)** — 逆向 AirPods Pro 2（USB-C）H2 晶片的 5 GHz 無損／低延遲連結（韌體內稱 ULLA）：記錄 AAP service 4 工作階段建立、耳機狀態機與 HCI／LMP 步驟，附可經 PSM `0x1001` 啟動工作階段的 Linux 探測工具；無線電音訊層尚未破解（MIT）。
 
 ---
 
@@ -65,6 +66,7 @@
 - **[LibrePods](https://github.com/librepods-org/librepods)** — 見協定章節；目前最完整的開源 Companion。
 - **[CAPod](https://github.com/d4rken-org/capod)** — 電量、入耳偵測、開蓋彈窗；支援多代 AirPods／Beats。
 - **[OpenPods](https://github.com/adolfintel/OpenPods)** — 早期 Android 開源電量／狀態監控。
+- **[GreenPods](https://github.com/andrewkomkov/GreenPods)** — 免 root 的 Android 夥伴 App（Kotlin／Compose）：以 BLE 取得電量、入耳偵測與自動暫停，並在較新 Android 上經 L2CAP 走 AAP 控制降噪、對話感知、耳柄設定與頭部追蹤，附各功能在系統限制下是否可用的對照表（MIT）。
 
 ### 桌面（Windows／Linux／macOS）
 
@@ -97,8 +99,10 @@
 - **[HeadphoneMotion](https://github.com/kulich-ua/HeadphoneMotion)** — 示範 Apple `CMHeadphoneMotionManager` 耳機運動資料。
 - **[AirPodsPro-Motion-Sampler](https://github.com/tukuyo/AirPodsPro-Motion-Sampler)** — 經典 iOS 範例：即時運動讀值、頭部驅動方塊／列表捲動、以 `CMHeadphoneMotionManager` 匯出 CSV（MIT）。
 - **[AirPosture](https://github.com/allenv0/AirPosture)** — iOS（已開源）：用 AirPods 頭部運動做即時姿勢教練（MIT）。
+- **[airpods-posture](https://github.com/anilsrml/airpods-posture)** — Linux：經 AAP（BlueZ）讀取 AirPods 頭追資料，在 KDE Plasma 面板小工具顯示駝背提示（GPL-3.0）。
 - **[airtracker](https://github.com/crippler95/airtracker)** — macOS：把 AirPods 當低延遲頭追，輸出 OpenTrack UDP。
 - **[aap-head-tracker](https://github.com/FIocker/aap-head-tracker)** — Windows：經 MagicAAP 解碼 AAP 運動資料做頭追。
+- **[pods-head-tracker](https://github.com/batubozkan/pods-head-tracker)** — 用 Raspberry Pi 或任何有 BlueZ 的 Linux 開啟 AirPods 頭追資料流，經 Wi-Fi UDP 或 USB 序列埠把 pitch／yaw 送進 OpenTrack，也可兼當 USB 音效卡把遊戲聲音轉送到 AirPods（GPL-3.0）。
 - **[Headitude](https://github.com/DanielRudrich/Headitude)** — macOS：把 AirPods 姿態以 OSC 轉發出去（MIT）。
 - **[Nod](https://github.com/ydisli/nod)** — macOS：用 AirPods 頭追免手控制滑鼠游標，主打無障礙／RSI 使用者。
 - **[QuietGlass](https://github.com/clintonimaroo/quietglass)** — macOS：轉頭不看螢幕時自動模糊，使用 AirPods 頭部運動（或鏡頭）。

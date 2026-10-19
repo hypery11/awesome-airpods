@@ -53,6 +53,7 @@ Projects that document or implement Apple Accessory Protocol (AAP), Magic Pairin
 - **[airpods-tui](https://github.com/annoyedmilk/airpods-tui)** — Linux Rust TUI + daemon over AACP: battery, noise modes, Conversation Awareness, stem settings, ear detection, Waybar JSON (GPL-3.0).
 - **[MagicPodsCore](https://github.com/steam3d/MagicPodsCore)** — Open Linux backend (WebSocket API) for AirPods / Beats / Galaxy Buds / Pixel Buds: battery, noise control, and AirPods-exclusive settings (GPL-3.0).
 - **[linux-client-for-airpods-pro](https://github.com/ozankenangungor/linux-client-for-airpods-pro)** — Reverse-engineered AirPods Pro 3 heart-rate stream on Linux: BlueZ daemon plus Rust / Python / C APIs and a desktop app.
+- **[openulla](https://github.com/mstampfli/openulla)** — Reverse engineering of the AirPods Pro 2 (USB-C) H2 5 GHz lossless / low-latency link (firmware name ULLA): documents the AAP service-4 session setup, earbud state machine, and HCI / LMP steps, with a Linux probe that starts the session over PSM `0x1001`; the radio audio layer is not recovered yet (MIT).
 
 ---
 
@@ -65,6 +66,7 @@ Battery status, ANC controls, in-ear detection, and “pop-up” style UX outsid
 - **[LibrePods](https://github.com/librepods-org/librepods)** — See protocol section; the leading open companion.
 - **[CAPod](https://github.com/d4rken-org/capod)** — Battery, in-ear detection, lid-open popup; supports many AirPods / Beats generations.
 - **[OpenPods](https://github.com/adolfintel/OpenPods)** — Early open-source Android battery / status monitor.
+- **[GreenPods](https://github.com/andrewkomkov/GreenPods)** — No-root Android companion (Kotlin / Compose): BLE battery, ear detection and auto-pause, plus AAP over L2CAP for noise control, Conversation Awareness, stem settings, and head tracking on recent Android, with a per-feature table of what the OS allows (MIT).
 
 ### Desktop (Windows / Linux / macOS)
 
@@ -97,8 +99,10 @@ Using AirPods IMU / head-tracking data for sports, VR, and controllers — the K
 - **[HeadphoneMotion](https://github.com/kulich-ua/HeadphoneMotion)** — Demo of Apple’s `CMHeadphoneMotionManager` headphone motion data.
 - **[AirPodsPro-Motion-Sampler](https://github.com/tukuyo/AirPodsPro-Motion-Sampler)** — Classic iOS sample: live motion readout, head-driven cube / table scroll, CSV export via `CMHeadphoneMotionManager` (MIT).
 - **[AirPosture](https://github.com/allenv0/AirPosture)** — iOS (open-sourced): turns AirPods head motion into a real-time posture coach (MIT).
+- **[airpods-posture](https://github.com/anilsrml/airpods-posture)** — Linux: reads the AirPods head-tracking stream over AAP (BlueZ) and shows a slouch indicator in a KDE Plasma panel widget (GPL-3.0).
 - **[airtracker](https://github.com/crippler95/airtracker)** — macOS: AirPods as low-latency head tracker, OpenTrack UDP out.
 - **[aap-head-tracker](https://github.com/FIocker/aap-head-tracker)** — Windows: decode AAP motion (via MagicAAP) for head tracking.
+- **[pods-head-tracker](https://github.com/batubozkan/pods-head-tracker)** — Raspberry Pi / any BlueZ Linux box opens the AirPods head-tracking stream and sends pitch / yaw to OpenTrack over Wi-Fi UDP or USB serial, optionally also acting as a USB sound card that forwards game audio to the AirPods (GPL-3.0).
 - **[Headitude](https://github.com/DanielRudrich/Headitude)** — macOS: forwards AirPods orientation over OSC (MIT).
 - **[Nod](https://github.com/ydisli/nod)** — macOS: hands-free pointer control with AirPods head tracking, aimed at accessibility / RSI.
 - **[QuietGlass](https://github.com/clintonimaroo/quietglass)** — macOS: blur your screens when you look away, using AirPods head motion (or the camera).
