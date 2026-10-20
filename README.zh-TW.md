@@ -67,6 +67,7 @@
 - **[CAPod](https://github.com/d4rken-org/capod)** — 電量、入耳偵測、開蓋彈窗；支援多代 AirPods／Beats。
 - **[OpenPods](https://github.com/adolfintel/OpenPods)** — 早期 Android 開源電量／狀態監控。
 - **[GreenPods](https://github.com/andrewkomkov/GreenPods)** — 免 root 的 Android 夥伴 App（Kotlin／Compose）：以 BLE 取得電量、入耳偵測與自動暫停，並在較新 Android 上經 L2CAP 走 AAP 控制降噪、對話感知、耳柄設定與頭部追蹤，附各功能在系統限制下是否可用的對照表（MIT）。
+- **[OpenPodsMax](https://github.com/sidnvy/OpenPodsMax)** — AirPods Max 2 的 Android 夥伴 App（免 root、免 Shizuku）：聆聽模式、個人化音量、對話感知、電量、拿下自動暫停／戴上續播，另可經 ADB 註冊，把控制項實驗性整合進 Android「已連結的裝置」設定頁；早期版本（GPL-3.0）。
 
 ### 桌面（Windows／Linux／macOS）
 
@@ -105,6 +106,7 @@
 - **[pods-head-tracker](https://github.com/batubozkan/pods-head-tracker)** — 用 Raspberry Pi 或任何有 BlueZ 的 Linux 開啟 AirPods 頭追資料流，經 Wi-Fi UDP 或 USB 序列埠把 pitch／yaw 送進 OpenTrack，也可兼當 USB 音效卡把遊戲聲音轉送到 AirPods（GPL-3.0）。
 - **[Headitude](https://github.com/DanielRudrich/Headitude)** — macOS：把 AirPods 姿態以 OSC 轉發出去（MIT）。
 - **[Nod](https://github.com/ydisli/nod)** — macOS：用 AirPods 頭追免手控制滑鼠游標，主打無障礙／RSI 使用者。
+- **[HeadControl](https://github.com/knockkeykey/HeadControl)** — macOS（Apple Silicon、AirPods Pro 2）：把歪頭、轉頭、點頭、搖頭六種頭勢綁定到全域快捷鍵或切換 App，可逐項調整幅度、校準練習並測試頭勢間誤觸（MIT）。
 - **[QuietGlass](https://github.com/clintonimaroo/quietglass)** — macOS：轉頭不看螢幕時自動模糊，使用 AirPods 頭部運動（或鏡頭）。
 - **[O-Pose](https://github.com/fengkaobanli/O-Pose)** — Android（OPPO ColorOS 16，需 root）：經 AACP 讀 AirPods Pro 2 頭追，驅動系統空間音訊。
 - **[ZANKYO](https://github.com/shilokuma-inc/zankyo-apple)** — iOS／iPadOS／macOS／visionOS：用 AirPods 頭部動作單手遊玩 BeatSaver 譜面的節奏遊戲。

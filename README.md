@@ -67,6 +67,7 @@ Battery status, ANC controls, in-ear detection, and “pop-up” style UX outsid
 - **[CAPod](https://github.com/d4rken-org/capod)** — Battery, in-ear detection, lid-open popup; supports many AirPods / Beats generations.
 - **[OpenPods](https://github.com/adolfintel/OpenPods)** — Early open-source Android battery / status monitor.
 - **[GreenPods](https://github.com/andrewkomkov/GreenPods)** — No-root Android companion (Kotlin / Compose): BLE battery, ear detection and auto-pause, plus AAP over L2CAP for noise control, Conversation Awareness, stem settings, and head tracking on recent Android, with a per-feature table of what the OS allows (MIT).
+- **[OpenPodsMax](https://github.com/sidnvy/OpenPodsMax)** — Android companion for AirPods Max 2 (no root or Shizuku): listening modes, Personalized Volume, Conversation Awareness, battery, pause on removal / resume when worn, plus experimental ADB-registered controls inside Android’s Connected devices settings; early release (GPL-3.0).
 
 ### Desktop (Windows / Linux / macOS)
 
@@ -105,6 +106,7 @@ Using AirPods IMU / head-tracking data for sports, VR, and controllers — the K
 - **[pods-head-tracker](https://github.com/batubozkan/pods-head-tracker)** — Raspberry Pi / any BlueZ Linux box opens the AirPods head-tracking stream and sends pitch / yaw to OpenTrack over Wi-Fi UDP or USB serial, optionally also acting as a USB sound card that forwards game audio to the AirPods (GPL-3.0).
 - **[Headitude](https://github.com/DanielRudrich/Headitude)** — macOS: forwards AirPods orientation over OSC (MIT).
 - **[Nod](https://github.com/ydisli/nod)** — macOS: hands-free pointer control with AirPods head tracking, aimed at accessibility / RSI.
+- **[HeadControl](https://github.com/knockkeykey/HeadControl)** — macOS (Apple Silicon, AirPods Pro 2): bind six head gestures (tilt, turn, nod, shake) to global shortcuts or app switching, with per-gesture thresholds, calibration practice, and cross-talk testing (MIT).
 - **[QuietGlass](https://github.com/clintonimaroo/quietglass)** — macOS: blur your screens when you look away, using AirPods head motion (or the camera).
 - **[O-Pose](https://github.com/fengkaobanli/O-Pose)** — Android (OPPO ColorOS 16, root): read AirPods Pro 2 head tracking over AACP and drive system spatial audio.
 - **[ZANKYO](https://github.com/shilokuma-inc/zankyo-apple)** — iOS / iPadOS / macOS / visionOS: one-handed BeatSaver rhythm game played with AirPods head motion.
