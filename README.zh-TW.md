@@ -86,6 +86,7 @@
 - **[GnomePods](https://github.com/michaelcaxias/gnomepods)** — GNOME Shell 頂列擴充，作為 [LinuxPods](https://github.com/Explor3Universe/LinuxPods) `linuxpods-daemon` 的前端：左右耳機／充電盒電量、降噪模式、對話感知、單耳降噪；daemon 的 D-Bus 或 AirPods 資料中斷時會自動重啟（GPL-3.0）。
 - **[omarchy-pods](https://github.com/thisisgm/omarchy-pods)** — Omarchy 面板：左右耳機／充電盒電量、聆聽模式、自適應強度、對話感知、單耳降噪、入耳偵測（MIT）。
 - **[podctl](https://github.com/Rockykln/podctl)** — Linux 命令列工具＋daemon，從零實作 AAP（L2CAP PSM `0x1001`）：電量、聆聽模式、對話感知、入耳偵測自動暫停／續播，另附可選系統匣與開蓋彈窗（Apache-2.0）。
+- **[MyPods](https://github.com/HanreichC/MyPods)** — 以 MagicPods 程式碼為基礎的 Qt 6／C++ Linux（及 Windows）Companion：Mac 風格開蓋彈窗、解密 BLE 廣播並透過 AAP 讀取 1% 精度電量（同步給 BlueZ／UPower）、降噪模式、對話感知、摘下暫停、iPhone 與電腦自動接手切換；已在 AirPods Max 實測，Pro 3 支援尚未驗證，程式碼大量由 AI 協助撰寫（GPL-3.0）。
 - **[airpods-tui](https://github.com/annoyedmilk/airpods-tui)** — 亦列於協定章節；Linux TUI＋Waybar。
 - **[airpods-helper](https://github.com/superninjv/airpods-helper)** — 亦列於協定章節；含 GTK4 UI。
 - **[MagicPodsCore](https://github.com/steam3d/MagicPodsCore)** — 亦列於協定章節；Linux WebSocket 後端。
