@@ -75,7 +75,7 @@
 - **[PodBridge](https://github.com/bhemsen/PodBridge)** — Windows 免驅動開源 Companion：電量、自動播放暫停、可選 ANC。
 - **[NTPods](https://github.com/arctumn/ntpods)** — 由 LibrePods Windows 移植獨立出來：電量、降噪、入耳偵測、對話感知、高音質麥克風、Pro 3 心率；驅動也開源（GPL-3.0）。
 - **[winpods](https://github.com/sinanovicanes/winpods)** — 輕量 Windows Companion（Rust）：電量、連線狀態、系統匣、低電量提醒、可移動 Widget（MIT）。
-- **[PodPilot](https://github.com/kylianxdev/PodPilot)** — Windows 10／11 系統匣 Companion（C#），支援 AirPods、Beats 與 Galaxy Buds：仿 iPhone 開蓋彈窗、左右耳個別電量、入耳偵測自動暫停、一鍵連線、柄部滑動音量提示；降噪模式與對話感知需搭配實驗性驅動（MIT）。
+- **[Earlo](https://github.com/kylianxdev/Earlo)**（原名 PodPilot）— Windows 10／11 系統匣 Companion（C#），支援 AirPods、Beats 與 Galaxy Buds：仿 iPhone 開蓋彈窗、左右耳個別電量、入耳偵測自動暫停、一鍵連線、柄部滑動音量提示；降噪模式與對話感知需搭配實驗性驅動（MIT）。
 - **[Near](https://github.com/jlbjulio/Near)** — 輕量 Windows Companion（Rust）：左右耳機／充電盒電量、開蓋彈窗、取出耳機時自動重連、入耳偵測暫停／續播、系統匣飛出面板（MIT）。
 - **[AirpodsBattery-Monitor-For-Mac](https://github.com/mohamed-arradi/AirpodsBattery-Monitor-For-Mac)** — macOS 選單列電量／Widget。
 - **[pods-control](https://github.com/raulgg/pods-control)** — macOS 命令列工具（Homebrew），透過未公開的 CoreAudio 屬性讀取／切換 AirPods 與 Beats 聆聽模式（關閉、通透、自適應、降噪）及對話感知（MIT）。 ([Alfred workflow](https://github.com/laipz8200/alfred-airpods)，以此為基礎的 Alfred workflow)
@@ -88,6 +88,7 @@
 - **[omarchy-pods](https://github.com/thisisgm/omarchy-pods)** — Omarchy 面板：左右耳機／充電盒電量、聆聽模式、自適應強度、對話感知、單耳降噪、入耳偵測（MIT）。
 - **[podctl](https://github.com/Rockykln/podctl)** — Linux 命令列工具＋daemon，從零實作 AAP（L2CAP PSM `0x1001`）：電量、聆聽模式、對話感知、入耳偵測自動暫停／續播，另附可選系統匣與開蓋彈窗（Apache-2.0）。
 - **[MyPods](https://github.com/HanreichC/MyPods)** — 以 MagicPods 程式碼為基礎的 Qt 6／C++ Linux（及 Windows）Companion：Mac 風格開蓋彈窗、解密 BLE 廣播並透過 AAP 讀取 1% 精度電量（同步給 BlueZ／UPower）、降噪模式、對話感知、摘下暫停、iPhone 與電腦自動接手切換；已在 AirPods Max 實測，Pro 3 支援尚未驗證，程式碼大量由 AI 協助撰寫（GPL-3.0）。
+- **[airpods-transparency-linux](https://github.com/Taardisaa/airpods-transparency-linux)** — Linux 控制中心（Python、Qt），附系統匣與 JSON CLI，透過 AACP 通訊：電量、聆聽模式，以及自訂通透模式調整（增益、音調、環境降噪、對話增強、自己聲音音量），可左右耳分別調整、存成預設並自動備份原值；已在 Ubuntu 22.04 + AirPods Pro 3 實測，仍屬早期階段（GPL-3.0）。
 - **[airpods-tui](https://github.com/annoyedmilk/airpods-tui)** — 亦列於協定章節；Linux TUI＋Waybar。
 - **[airpods-helper](https://github.com/superninjv/airpods-helper)** — 亦列於協定章節；含 GTK4 UI。
 - **[MagicPodsCore](https://github.com/steam3d/MagicPodsCore)** — 亦列於協定章節；Linux WebSocket 後端。
