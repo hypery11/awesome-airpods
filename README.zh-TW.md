@@ -76,6 +76,7 @@
 - **[NTPods](https://github.com/arctumn/ntpods)** — 由 LibrePods Windows 移植獨立出來：電量、降噪、入耳偵測、對話感知、高音質麥克風、Pro 3 心率；驅動也開源（GPL-3.0）。
 - **[winpods](https://github.com/sinanovicanes/winpods)** — 輕量 Windows Companion（Rust）：電量、連線狀態、系統匣、低電量提醒、可移動 Widget（MIT）。
 - **[Earlo](https://github.com/kylianxdev/Earlo)**（原名 PodPilot）— Windows 10／11 系統匣 Companion（C#），支援 AirPods、Beats 與 Galaxy Buds：仿 iPhone 開蓋彈窗、左右耳個別電量、入耳偵測自動暫停、一鍵連線、柄部滑動音量提示；降噪模式與對話感知需搭配實驗性驅動（MIT）。
+- **[NEXRON AirPods Battery Widget](https://github.com/nexron-studios/NEXRON-airpods-battery-windows)** — Windows 10／11 置頂電量 Widget（Tauri + Vue），解密加密過的 BLE 電量廣播，顯示左右耳與充電盒的精確電量；需先從同一 Apple ID 的 Mac 鑰匙圈讀取一次 `MagicAccIRK`／`MagicAccEncKey` 金鑰；完全離線（GPL-3.0）。
 - **[Near](https://github.com/jlbjulio/Near)** — 輕量 Windows Companion（Rust）：左右耳機／充電盒電量、開蓋彈窗、取出耳機時自動重連、入耳偵測暫停／續播、系統匣飛出面板（MIT）。
 - **[AirpodsBattery-Monitor-For-Mac](https://github.com/mohamed-arradi/AirpodsBattery-Monitor-For-Mac)** — macOS 選單列電量／Widget。
 - **[pods-control](https://github.com/raulgg/pods-control)** — macOS 命令列工具（Homebrew），透過未公開的 CoreAudio 屬性讀取／切換 AirPods 與 Beats 聆聽模式（關閉、通透、自適應、降噪）及對話感知（MIT）。 ([Alfred workflow](https://github.com/laipz8200/alfred-airpods)，以此為基礎的 Alfred workflow)
