@@ -68,6 +68,7 @@
 - **[OpenPods](https://github.com/adolfintel/OpenPods)** — 早期 Android 開源電量／狀態監控。
 - **[GreenPods](https://github.com/andrewkomkov/GreenPods)** — 免 root 的 Android 夥伴 App（Kotlin／Compose）：以 BLE 取得電量、入耳偵測與自動暫停，並在較新 Android 上經 L2CAP 走 AAP 控制降噪、對話感知、耳柄設定與頭部追蹤，附各功能在系統限制下是否可用的對照表（MIT）。
 - **[OpenPodsMax](https://github.com/sidnvy/OpenPodsMax)** — AirPods Max 2 的 Android 夥伴 App（免 root、免 Shizuku）：聆聽模式、個人化音量、對話感知、電量、拿下自動暫停／戴上續播，另可經 ADB 註冊，把控制項實驗性整合進 Android「已連結的裝置」設定頁；早期版本（GPL-3.0）。
+- **[HyperPods-X](https://github.com/YeFeng233/HyperPods-X)** — 小米 HyperOS 的 Android App + LSPosed 模組（Kotlin／Miuix）：HyperOS 原生開蓋彈窗與超級島電量、聆聽模式與耳機回報的進階設定（EQ、按壓時長、單耳降噪等），寫入後以回讀確認、對話感知自動降低媒體音量，並把 AirPods 真實頭部姿態接入系統頭部追蹤做空間音訊；預覽版，於 HyperOS 4 搭配 AirPods 5 實機測試（GPL-3.0）。
 
 ### 桌面（Windows／Linux／macOS）
 
@@ -77,6 +78,7 @@
 - **[winpods](https://github.com/sinanovicanes/winpods)** — 輕量 Windows Companion（Rust）：電量、連線狀態、系統匣、低電量提醒、可移動 Widget（MIT）。
 - **[Earlo](https://github.com/kylianxdev/Earlo)**（原名 PodPilot）— Windows 10／11 系統匣 Companion（C#），支援 AirPods、Beats 與 Galaxy Buds：仿 iPhone 開蓋彈窗、左右耳個別電量、入耳偵測自動暫停、一鍵連線、柄部滑動音量提示；降噪模式與對話感知需搭配實驗性驅動（MIT）。
 - **[NEXRON AirPods Battery Widget](https://github.com/nexron-studios/NEXRON-airpods-battery-windows)** — Windows 10／11 置頂電量 Widget（Tauri + Vue），解密加密過的 BLE 電量廣播，顯示左右耳與充電盒的精確電量；需先從同一 Apple ID 的 Mac 鑰匙圈讀取一次 `MagicAccIRK`／`MagicAccEncKey` 金鑰；完全離線（GPL-3.0）。
+- **[WPods](https://github.com/FPNDev/wpods)** — Windows 11 Companion（C#），附開源驅動：開麥克風時仍維持立體聲播放（麥克風以「Headset (A2DP)」出現）、本機執行的降噪麥克風模式、含自適應的降噪控制、對話感知、個人化音量、助聽功能、Pro 3 心率、按壓設定、附近裝置彈窗；需開啟測試模式並關閉 Secure Boot（GPL-3.0）。
 - **[Near](https://github.com/jlbjulio/Near)** — 輕量 Windows Companion（Rust）：左右耳機／充電盒電量、開蓋彈窗、取出耳機時自動重連、入耳偵測暫停／續播、系統匣飛出面板（MIT）。
 - **[AirpodsBattery-Monitor-For-Mac](https://github.com/mohamed-arradi/AirpodsBattery-Monitor-For-Mac)** — macOS 選單列電量／Widget。
 - **[pods-control](https://github.com/raulgg/pods-control)** — macOS 命令列工具（Homebrew），透過未公開的 CoreAudio 屬性讀取／切換 AirPods 與 Beats 聆聽模式（關閉、通透、自適應、降噪）及對話感知（MIT）。 ([Alfred workflow](https://github.com/laipz8200/alfred-airpods)，以此為基礎的 Alfred workflow)
