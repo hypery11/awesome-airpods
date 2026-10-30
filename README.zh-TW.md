@@ -132,6 +132,7 @@
 
 - **[MagicPairing](https://arxiv.org/abs/2005.07255)** ([ACM](https://dl.acm.org/doi/10.1145/3395351.3399343)) — SEEMOO／TU Darmstadt 逆向 Apple 周邊配對與安全機制。
 - **[InternalBlue — magicpairing examples](https://github.com/seemoo-lab/internalblue/tree/master/examples/magicpairing)** — 與 Magic Pairing 相關的研究 PoC／範例。
+- **[CVE-2026-43664](https://github.com/speedyfriend433/CVE-2026-43664)** — 說明與 Objective-C PoC：任何沙盒內的 iOS／macOS App 都能透過 `NSUserDefaults persistentDomainForName:`，在未取得任何權限的情況下讀取已配對 AirPods 的藍牙 MAC 位址（以及 150 多個系統偏好設定鍵值）；已列名於 [Apple iOS 27 安全性內容說明](https://support.apple.com/en-us/149034)（MIT）。
 
 ---
 

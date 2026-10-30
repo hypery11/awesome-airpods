@@ -132,6 +132,7 @@ Tools for inspecting Apple micro-device firmware images — **not** flashable cu
 
 - **[MagicPairing](https://arxiv.org/abs/2005.07255)** ([ACM](https://dl.acm.org/doi/10.1145/3395351.3399343)) — SEEMOO / TU Darmstadt reverse-engineering of Apple peripheral pairing and security.
 - **[InternalBlue — magicpairing examples](https://github.com/seemoo-lab/internalblue/tree/master/examples/magicpairing)** — Research PoCs / examples related to Magic Pairing.
+- **[CVE-2026-43664](https://github.com/speedyfriend433/CVE-2026-43664)** — Write-up and Objective-C PoC: any sandboxed iOS / macOS app could read the paired AirPods Bluetooth MAC address (plus 150+ system preference keys) via `NSUserDefaults persistentDomainForName:` with no permission; credited in [Apple's iOS 27 security notes](https://support.apple.com/en-us/149034) (MIT).
 
 ---
 
