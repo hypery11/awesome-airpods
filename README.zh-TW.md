@@ -117,6 +117,7 @@
 - **[O-Pose](https://github.com/fengkaobanli/O-Pose)** — Android（OPPO ColorOS 16，需 root）：經 AACP 讀 AirPods Pro 2 頭追，驅動系統空間音訊。
 - **[ZANKYO](https://github.com/shilokuma-inc/zankyo-apple)** — iOS／iPadOS／macOS／visionOS：用 AirPods 頭部動作單手遊玩 BeatSaver 譜面的節奏遊戲。
 - **[SkateFit Motion Lab](https://github.com/banddude/skatefit-airpods-motion)** — iOS 實驗：把 AirPod 固定在滑板上、與 iPhone 一起記錄運動資料，用來偵測滑板招式／manual／落地，附網頁調參主控台（MIT）。
+- **[Silent Speech](https://github.com/Spiro-12/silent-speech)** — macOS + 瀏覽器：用 AirPods 動作感測器偵測無聲默念時的下顎動作，辨識七句訓練過的句子並讓 Mac 執行（傳訊息給聯絡人、調音量、播音樂、讀行事曆）；每位使用者自行訓練模型，附線上回放展示，目前只在一人身上測試過（MIT）。
 
 ---
 

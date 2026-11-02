@@ -117,6 +117,7 @@ Using AirPods IMU / head-tracking data for sports, VR, and controllers — the K
 - **[O-Pose](https://github.com/fengkaobanli/O-Pose)** — Android (OPPO ColorOS 16, root): read AirPods Pro 2 head tracking over AACP and drive system spatial audio.
 - **[ZANKYO](https://github.com/shilokuma-inc/zankyo-apple)** — iOS / iPadOS / macOS / visionOS: one-handed BeatSaver rhythm game played with AirPods head motion.
 - **[SkateFit Motion Lab](https://github.com/banddude/skatefit-airpods-motion)** — iOS experiment: records motion from a board-mounted AirPod plus the iPhone for skateboard trick / manual / landing detection, with a web tuning console (MIT).
+- **[Silent Speech](https://github.com/Spiro-12/silent-speech)** — macOS + browser: AirPods motion sensors pick up jaw movement while you silently mouth one of seven trained sentences, and the Mac acts on it (text a contact, volume, music, calendar); per-user model, live replay demo, tested on one person so far (MIT).
 
 ---
 
