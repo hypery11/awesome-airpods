@@ -54,6 +54,7 @@
 - **[MagicPodsCore](https://github.com/steam3d/MagicPodsCore)** — 開源 Linux 後端（WebSocket API），支援 AirPods／Beats／Galaxy Buds／Pixel Buds：電量、降噪，以及 AirPods 專屬設定（GPL-3.0）。
 - **[linux-client-for-airpods-pro](https://github.com/ozankenangungor/linux-client-for-airpods-pro)** — 逆向 AirPods Pro 3 心率資料流（Linux）：BlueZ daemon，附 Rust／Python／C API 與桌面 App。
 - **[openulla](https://github.com/mstampfli/openulla)** — 逆向 AirPods Pro 2（USB-C）H2 晶片的 5 GHz 無損／低延遲連結（韌體內稱 ULLA）：記錄 AAP service 4 工作階段建立、耳機狀態機與 HCI／LMP 步驟，附可經 PSM `0x1001` 啟動工作階段的 Linux 探測工具；無線電音訊層尚未破解（MIT）。
+- **[MousePods](https://github.com/starman-tech/mousepods)** — 首個公開讓 AirPods 3 在 Linux 上取得頭追資料的專案：記錄 AirPods 3 不走 SensorDataWX、改用 Apple RemoteHID（經 AACP 的 HID，RTBuddy 通道 `0x800`）的協定格式，指出 L2CAP MTU 要設為 2582 運動感測器才會出現（最高約 210 Hz），並附免 root 的 BlueZ／uinput 頭控滑鼠，也支援 AirPods Pro 2（程式碼 Apache-2.0，研究發現 CC BY 4.0）。
 
 ---
 

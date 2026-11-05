@@ -54,6 +54,7 @@ Projects that document or implement Apple Accessory Protocol (AAP), Magic Pairin
 - **[MagicPodsCore](https://github.com/steam3d/MagicPodsCore)** — Open Linux backend (WebSocket API) for AirPods / Beats / Galaxy Buds / Pixel Buds: battery, noise control, and AirPods-exclusive settings (GPL-3.0).
 - **[linux-client-for-airpods-pro](https://github.com/ozankenangungor/linux-client-for-airpods-pro)** — Reverse-engineered AirPods Pro 3 heart-rate stream on Linux: BlueZ daemon plus Rust / Python / C APIs and a desktop app.
 - **[openulla](https://github.com/mstampfli/openulla)** — Reverse engineering of the AirPods Pro 2 (USB-C) H2 5 GHz lossless / low-latency link (firmware name ULLA): documents the AAP service-4 session setup, earbud state machine, and HCI / LMP steps, with a Linux probe that starts the session over PSM `0x1001`; the radio audio layer is not recovered yet (MIT).
+- **[MousePods](https://github.com/starman-tech/mousepods)** — First public head-tracking path for AirPods 3 on Linux: documents Apple RemoteHID (HID over AACP, RTBuddy channel `0x800`) that AirPods 3 use instead of SensorDataWX, shows the motion sensors only appear at L2CAP MTU 2582 (up to ~210 Hz), and ships a no-root BlueZ / uinput head mouse that also supports AirPods Pro 2 (code Apache-2.0, findings CC BY 4.0).
 
 ---
 
