@@ -71,6 +71,7 @@
 - **[OpenPodsMax](https://github.com/sidnvy/OpenPodsMax)** — AirPods Max 2 的 Android 夥伴 App（免 root、免 Shizuku）：聆聽模式、個人化音量、對話感知、電量、拿下自動暫停／戴上續播，另可經 ADB 註冊，把控制項實驗性整合進 Android「已連結的裝置」設定頁；早期版本（GPL-3.0）。
 - **[HyperPods-X](https://github.com/YeFeng233/HyperPods-X)** — 小米 HyperOS 的 Android App + LSPosed 模組（Kotlin／Miuix）：HyperOS 原生開蓋彈窗與超級島電量、聆聽模式與耳機回報的進階設定（EQ、按壓時長、單耳降噪等），寫入後以回讀確認、對話感知自動降低媒體音量，並把 AirPods 真實頭部姿態接入系統頭部追蹤做空間音訊；預覽版，於 HyperOS 4 搭配 AirPods 5 實機測試（GPL-3.0）。
 - **[OPods](https://github.com/arkylin/OPods)** — OPPO／一加 ColorOS 的 LSPosed 模組，只在 ColorOS 官方程序內運作，沿用原廠 AirPods 彈窗與設定頁而不另做 App：噪音模式與自適應強度、對話感知、按壓與 EQ 設定、透過 ATT 的通透自訂與助聽調整、頭部姿態接收與實驗性點頭／搖頭辨識，每個控制項下方都標出使用的 AACP／ATT 封包；已在一加 13（ColorOS 17）搭配 AirPods 5 驗證，Pro 3 功能尚未實測（GPL-3.0）。
+- **[PodTide](https://github.com/Stormlyd/PodTide)** — 以 CAPod 為基礎、參考 LibrePods 協定的 Android Companion（GPL-3.0）：電量與開蓋彈窗、聆聽模式、自動連線，以及 AirPods Pro 3 心率讀取與本機歷史曲線；FOSS 版免 root，初期於 ColorOS 實測。
 
 ### 桌面（Windows／Linux／macOS）
 
@@ -115,6 +116,7 @@
 - **[pods-head-tracker](https://github.com/batubozkan/pods-head-tracker)** — 用 Raspberry Pi 或任何有 BlueZ 的 Linux 開啟 AirPods 頭追資料流，經 Wi-Fi UDP 或 USB 序列埠把 pitch／yaw 送進 OpenTrack，也可兼當 USB 音效卡把遊戲聲音轉送到 AirPods（GPL-3.0）。
 - **[Headitude](https://github.com/DanielRudrich/Headitude)** — macOS：把 AirPods 姿態以 OSC 轉發出去（MIT）。
 - **[Nod](https://github.com/ydisli/nod)** — macOS：用 AirPods 頭追免手控制滑鼠游標，主打無障礙／RSI 使用者。
+- **[AirCursor](https://github.com/m-afham/AirCursor)** — macOS 選單列 App：用 AirPods 頭部運動免手控制游標，含智慧懸停點擊、耳柄單／雙／三擊（捲動）、點頭點擊與搖頭暫停；附首次啟動導覽（MIT）。
 - **[HeadControl](https://github.com/knockkeykey/HeadControl)** — macOS（Apple Silicon、AirPods Pro 2）：把歪頭、轉頭、點頭、搖頭六種頭勢綁定到全域快捷鍵或切換 App，可逐項調整幅度、校準練習並測試頭勢間誤觸（MIT）。
 - **[QuietGlass](https://github.com/clintonimaroo/quietglass)** — macOS：轉頭不看螢幕時自動模糊，使用 AirPods 頭部運動（或鏡頭）。
 - **[O-Pose](https://github.com/fengkaobanli/O-Pose)** — Android（OPPO ColorOS 16，需 root）：經 AACP 讀 AirPods Pro 2 頭追，驅動系統空間音訊。
