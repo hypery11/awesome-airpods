@@ -117,6 +117,7 @@
 - **[Headitude](https://github.com/DanielRudrich/Headitude)** — macOS：把 AirPods 姿態以 OSC 轉發出去（MIT）。
 - **[Nod](https://github.com/ydisli/nod)** — macOS：用 AirPods 頭追免手控制滑鼠游標，主打無障礙／RSI 使用者。
 - **[AirCursor](https://github.com/m-afham/AirCursor)** — macOS 選單列 App：用 AirPods 頭部運動免手控制游標，含智慧懸停點擊、耳柄單／雙／三擊（捲動）、點頭點擊與搖頭暫停；附首次啟動導覽（MIT）。
+- **[AirPointer](https://github.com/oscarcreatess/airpointer)** — macOS（Apple Silicon，已測 AirPods Pro 3／AirPods 4 ANC）：把闔上的 AirPods 充電盒當空中滑鼠移動游標，輕點前方即點擊；使用前列出副作用說明（MIT）。
 - **[HeadControl](https://github.com/knockkeykey/HeadControl)** — macOS（Apple Silicon、AirPods Pro 2）：把歪頭、轉頭、點頭、搖頭六種頭勢綁定到全域快捷鍵或切換 App，可逐項調整幅度、校準練習並測試頭勢間誤觸（MIT）。
 - **[QuietGlass](https://github.com/clintonimaroo/quietglass)** — macOS：轉頭不看螢幕時自動模糊，使用 AirPods 頭部運動（或鏡頭）。
 - **[O-Pose](https://github.com/fengkaobanli/O-Pose)** — Android（OPPO ColorOS 16，需 root）：經 AACP 讀 AirPods Pro 2 頭追，驅動系統空間音訊。
