@@ -117,6 +117,7 @@ Using AirPods IMU / head-tracking data for sports, VR, and controllers — the K
 - **[Headitude](https://github.com/DanielRudrich/Headitude)** — macOS: forwards AirPods orientation over OSC (MIT).
 - **[Nod](https://github.com/ydisli/nod)** — macOS: hands-free pointer control with AirPods head tracking, aimed at accessibility / RSI.
 - **[AirCursor](https://github.com/m-afham/AirCursor)** — macOS menu-bar app: AirPods head motion as a hands-free pointer with smart hover-click, stem click / double / triple (scroll), nod click and shake-to-pause; guided first-run tour (MIT).
+- **[AirPointer](https://github.com/oscarcreatess/airpointer)** — macOS (Apple Silicon, AirPods Pro 3 / AirPods 4 ANC tested): use the closed AirPods case as an air-mouse pointer, tap the front to click; documents side effects before use (MIT).
 - **[HeadControl](https://github.com/knockkeykey/HeadControl)** — macOS (Apple Silicon, AirPods Pro 2): bind six head gestures (tilt, turn, nod, shake) to global shortcuts or app switching, with per-gesture thresholds, calibration practice, and cross-talk testing (MIT).
 - **[QuietGlass](https://github.com/clintonimaroo/quietglass)** — macOS: blur your screens when you look away, using AirPods head motion (or the camera).
 - **[O-Pose](https://github.com/fengkaobanli/O-Pose)** — Android (OPPO ColorOS 16, root): read AirPods Pro 2 head tracking over AACP and drive system spatial audio.
