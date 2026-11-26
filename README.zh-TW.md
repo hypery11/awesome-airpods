@@ -72,6 +72,7 @@
 - **[HyperPods-X](https://github.com/YeFeng233/HyperPods-X)** — 小米 HyperOS 的 Android App + LSPosed 模組（Kotlin／Miuix）：HyperOS 原生開蓋彈窗與超級島電量、聆聽模式與耳機回報的進階設定（EQ、按壓時長、單耳降噪等），寫入後以回讀確認、對話感知自動降低媒體音量，並把 AirPods 真實頭部姿態接入系統頭部追蹤做空間音訊；預覽版，於 HyperOS 4 搭配 AirPods 5 實機測試（GPL-3.0）。
 - **[OPods](https://github.com/arkylin/OPods)** — OPPO／一加 ColorOS 的 LSPosed 模組，只在 ColorOS 官方程序內運作，沿用原廠 AirPods 彈窗與設定頁而不另做 App：噪音模式與自適應強度、對話感知、按壓與 EQ 設定、透過 ATT 的通透自訂與助聽調整、頭部姿態接收與實驗性點頭／搖頭辨識，每個控制項下方都標出使用的 AACP／ATT 封包；已在一加 13（ColorOS 17）搭配 AirPods 5 驗證，Pro 3 功能尚未實測（GPL-3.0）。
 - **[PodTide](https://github.com/Stormlyd/PodTide)** — 以 CAPod 為基礎、參考 LibrePods 協定的 Android Companion（GPL-3.0）：電量與開蓋彈窗、聆聽模式、自動連線，以及 AirPods Pro 3 心率讀取與本機歷史曲線；FOSS 版免 root，初期於 ColorOS 實測。
+- **[Podlink](https://github.com/nikosszzz/podlink)** — 直接透過藍牙 L2CAP／AACP 控制 AirPods 的 Android Companion，採 Material 3 Expressive 介面：即時左右耳與充電盒電量、Pixel 風格通知與 Android 17 即時動態晶片、在 App／快速設定方塊／小工具切換降噪（含自適應強度）、自訂按壓動作、摘下自動暫停（GPL-3.0）。
 
 ### 桌面（Windows／Linux／macOS）
 
@@ -83,6 +84,8 @@
 - **[NEXRON AirPods Battery Widget](https://github.com/nexron-studios/NEXRON-airpods-battery-windows)** — Windows 10／11 置頂電量 Widget（Tauri + Vue），解密加密過的 BLE 電量廣播，顯示左右耳與充電盒的精確電量；需先從同一 Apple ID 的 Mac 鑰匙圈讀取一次 `MagicAccIRK`／`MagicAccEncKey` 金鑰；完全離線（GPL-3.0）。
 - **[WPods](https://github.com/FPNDev/wpods)** — Windows 11 Companion（C#），附開源驅動：開麥克風時仍維持立體聲播放（麥克風以「Headset (A2DP)」出現）、本機執行的降噪麥克風模式、含自適應的降噪控制、對話感知、個人化音量、助聽功能、Pro 3 心率、按壓設定、附近裝置彈窗；需開啟測試模式並關閉 Secure Boot（GPL-3.0）。
 - **[USB AirPods](https://github.com/ermanon/USB-AirPods)** — 硬體橋接：用 Raspberry Pi Pico 2 W 透過藍牙連 AirPods，在 Windows 上以 USB 音訊裝置出現，開麥克風時仍維持 48 kHz 立體聲播放（麥克風走獨立的 AACP／AAC-ELD 路徑），並附 Windows 系統匣 App 顯示左右耳與充電盒電量、切換 ANC；不使用電腦本身的藍牙、也不改 AirPods 韌體；實驗性質，已在 AirPods 4 ANC 測試（GPL-3.0）。
+- **[AirPods Control for Windows](https://github.com/leosieltief-sudo/AirPodsControlTool)** — Windows 10/11 系統匣 App（.NET、WPF）：電量，以及降噪／通透／自適應／關閉與按住耳機柄的設定；透過 Windows 內建的 WSL2 與 AirPods 溝通而非未簽署驅動，不需測試模式、不用改 Secure Boot；初期版本，只在一台電腦搭配 AirPods Pro 3 測試（MIT）。
+- **[PodPanel](https://github.com/fcs61/PodPanel)** — Windows 系統匣面板：左右耳與充電盒電量和配戴狀態、聆聽模式、降低音訊延遲（150 → 90／60 ms）方便玩遊戲、開麥克風時維持立體聲、摘下耳機自動暫停、同步音量條（GPL-3.0）。
 - **[Near](https://github.com/jlbjulio/Near)** — 輕量 Windows Companion（Rust）：左右耳機／充電盒電量、開蓋彈窗、取出耳機時自動重連、入耳偵測暫停／續播、系統匣飛出面板（MIT）。
 - **[AirpodsBattery-Monitor-For-Mac](https://github.com/mohamed-arradi/AirpodsBattery-Monitor-For-Mac)** — macOS 選單列電量／Widget。
 - **[pods-control](https://github.com/raulgg/pods-control)** — macOS 命令列工具（Homebrew），透過未公開的 CoreAudio 屬性讀取／切換 AirPods 與 Beats 聆聽模式（關閉、通透、自適應、降噪）及對話感知（MIT）。 ([Alfred workflow](https://github.com/laipz8200/alfred-airpods)，以此為基礎的 Alfred workflow)
@@ -124,6 +127,7 @@
 - **[ZANKYO](https://github.com/shilokuma-inc/zankyo-apple)** — iOS／iPadOS／macOS／visionOS：用 AirPods 頭部動作單手遊玩 BeatSaver 譜面的節奏遊戲。
 - **[SkateFit Motion Lab](https://github.com/banddude/skatefit-airpods-motion)** — iOS 實驗：把 AirPod 固定在滑板上、與 iPhone 一起記錄運動資料，用來偵測滑板招式／manual／落地，附網頁調參主控台（MIT）。
 - **[Silent Speech](https://github.com/Spiro-12/silent-speech)** — macOS + 瀏覽器：用 AirPods 動作感測器偵測無聲默念時的下顎動作，辨識七句訓練過的句子並讓 Mac 執行（傳訊息給聯絡人、調音量、播音樂、讀行事曆）；每位使用者自行訓練模型，附線上回放展示，目前只在一人身上測試過（MIT）。
+- **[FBT Pods](https://github.com/IROHAuwu/FBTPods)** — Windows：把 AirPods 綁在腿上，替 SteamVR／VRChat 做全身追蹤；透過獨立藍牙接收器讀取每顆耳機的動作感測器，算出臀部、膝蓋與腳的位置送給 SteamVR 當追蹤器（一副 AirPods＝一個追蹤器）；免安裝 exe，附配對與校正引導，介面支援英文／繁中／日文／韓文／西班牙文（Apache-2.0）。
 
 ---
 
