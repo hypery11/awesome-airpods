@@ -117,6 +117,7 @@ Using AirPods IMU / head-tracking data for sports, VR, and controllers — the K
 - **[airtracker](https://github.com/crippler95/airtracker)** — macOS: AirPods as low-latency head tracker, OpenTrack UDP out.
 - **[aap-head-tracker](https://github.com/FIocker/aap-head-tracker)** — Windows: decode AAP motion (via MagicAAP) for head tracking.
 - **[pods-head-tracker](https://github.com/batubozkan/pods-head-tracker)** — Raspberry Pi / any BlueZ Linux box opens the AirPods head-tracking stream and sends pitch / yaw to OpenTrack over Wi-Fi UDP or USB serial, optionally also acting as a USB sound card that forwards game audio to the AirPods (GPL-3.0).
+- **[auricle](https://github.com/freaktopus/auricle)** — Linux: zero-dependency Rust client that opens the AirPods head-motion channel over L2CAP PSM `0x1001` and turns it into yaw / pitch angles (~23 Hz) as a JSON-lines stream, a local HTTP API with live dashboard, a `uinput` head mouse, or a head-steered browser bike game; tested on AirPods Pro 2 only, experimental (MIT).
 - **[Headitude](https://github.com/DanielRudrich/Headitude)** — macOS: forwards AirPods orientation over OSC (MIT).
 - **[Nod](https://github.com/ydisli/nod)** — macOS: hands-free pointer control with AirPods head tracking, aimed at accessibility / RSI.
 - **[AirCursor](https://github.com/m-afham/AirCursor)** — macOS menu-bar app: AirPods head motion as a hands-free pointer with smart hover-click, stem click / double / triple (scroll), nod click and shake-to-pause; guided first-run tour (MIT).

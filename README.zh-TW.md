@@ -117,6 +117,7 @@
 - **[airtracker](https://github.com/crippler95/airtracker)** — macOS：把 AirPods 當低延遲頭追，輸出 OpenTrack UDP。
 - **[aap-head-tracker](https://github.com/FIocker/aap-head-tracker)** — Windows：經 MagicAAP 解碼 AAP 運動資料做頭追。
 - **[pods-head-tracker](https://github.com/batubozkan/pods-head-tracker)** — 用 Raspberry Pi 或任何有 BlueZ 的 Linux 開啟 AirPods 頭追資料流，經 Wi-Fi UDP 或 USB 序列埠把 pitch／yaw 送進 OpenTrack，也可兼當 USB 音效卡把遊戲聲音轉送到 AirPods（GPL-3.0）。
+- **[auricle](https://github.com/freaktopus/auricle)** — Linux：零依賴的 Rust 用戶端，經 L2CAP PSM `0x1001` 開啟 AirPods 頭部運動通道並換算成 yaw／pitch 角度（約 23 Hz），可輸出 JSON-lines 串流、附即時儀表板的本機 HTTP API、`uinput` 頭控滑鼠，或用頭部操控的瀏覽器單車遊戲；目前只在 AirPods Pro 2 測過，屬實驗性質（MIT）。
 - **[Headitude](https://github.com/DanielRudrich/Headitude)** — macOS：把 AirPods 姿態以 OSC 轉發出去（MIT）。
 - **[Nod](https://github.com/ydisli/nod)** — macOS：用 AirPods 頭追免手控制滑鼠游標，主打無障礙／RSI 使用者。
 - **[AirCursor](https://github.com/m-afham/AirCursor)** — macOS 選單列 App：用 AirPods 頭部運動免手控制游標，含智慧懸停點擊、耳柄單／雙／三擊（捲動）、點頭點擊與搖頭暫停；附首次啟動導覽（MIT）。
